@@ -28,6 +28,7 @@ kotlin {
                 implementation(compose.material)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
+                api("io.github.kevinnzou:compose-webview-multiplatform:1.6.0")
             }
         }
         val androidMain by getting {
